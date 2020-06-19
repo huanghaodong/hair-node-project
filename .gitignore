@@ -1,0 +1,140 @@
+Created by IDE
+.DS_Store
+.idea/
+*.iml
+
+docs
+
+.*
+!.gitignore
+!.eslintrc
+!.editorconfig
+!.babelrc
+
+# Node
+eros-widget/
+logs
+*.log
+npm-debug.log*
+.npm
+node_modules
+dist
+bower_components
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Android
+# built application files
+*.apk
+*.ap_
+wxframework
+sdk
+bmwidget
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+sign.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/outd
+build/
+.idea/
+.gradle/
+android/playground/local.properties
+
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+# END Android
+
+# IOS
+# Xcode
+*/build/*
+*.pbxuser
+*.pbxprog
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+WeexiOSSDK
+Benmu-iOS-Library
+
+#CocoaPods
+Pods
+
+*.xccheckout
+*.xcworkspacedata
+*.xcworkspace
+Podfile.lock
+# END IOS
+/platforms/android/WeexFrameworkWrapper/nexus/
+platforms/android/WeexFrameworkWrapper/nexus/.gitignore
+platforms/android/WeexFrameworkWrapper/nexus/README.md
+platforms/android/WeexFrameworkWrapper/nexus/app/
+platforms/android/WeexFrameworkWrapper/nexus/build.gradle
+platforms/android/WeexFrameworkWrapper/nexus/eros_demo.jks
+platforms/android/WeexFrameworkWrapper/nexus/gradle.properties
+platforms/android/WeexFrameworkWrapper/nexus/gradle/
+platforms/android/WeexFrameworkWrapper/nexus/gradlew
+platforms/android/WeexFrameworkWrapper/nexus/gradlew.bat
+platforms/android/WeexFrameworkWrapper/nexus/libs/
+platforms/android/WeexFrameworkWrapper/nexus/nexus/README.md
+platforms/android/WeexFrameworkWrapper/nexus/nexus/build.gradle
+platforms/android/WeexFrameworkWrapper/nexus/nexus/libs/
+platforms/android/WeexFrameworkWrapper/nexus/nexus/proguard-rules.pro
+platforms/android/WeexFrameworkWrapper/nexus/nexus/src/
+platforms/android/WeexFrameworkWrapper/nexus/proguard-rules.pro
+platforms/android/WeexFrameworkWrapper/nexus/settings.gradle
+platforms/android/WeexFrameworkWrapper/nexus/src/
+/platforms/android/
+/platforms/ios/
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/.gitignore
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/ErosPluginAmap/.gitignore
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/ErosPluginAmap/README.md
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/ErosPluginAmap/build.gradle
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/ErosPluginAmap/proguard-rules.pro
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/ErosPluginAmap/src/
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/README.md
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/app/
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/build.gradle
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/eros_demo.jks
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/gradle.properties
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/gradle/
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/gradlew
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/gradlew.bat
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/install.sh
+platforms/android/WeexFrameworkWrapper/ErosPluginAmap/settings.gradle
+
+
+ip.txt
