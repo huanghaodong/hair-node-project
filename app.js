@@ -6,6 +6,7 @@ var logger = require('morgan');
 var JwtUtil = require('./token');
 
 var indexRouter = require('./routes/index');
+var statisticsRouter = require('./routes/statistics');
 var usersRouter = require('./routes/users');
 var accountRouter = require('./routes/account');
 var moneyRouter = require('./routes/money');
@@ -49,6 +50,7 @@ app.use(function(req, res, next){
   }
 })
 app.use('/', indexRouter);
+app.use('/statistics', statisticsRouter);
 app.use('/users', usersRouter);
 app.use('/account', accountRouter);
 app.use('/money', moneyRouter);
